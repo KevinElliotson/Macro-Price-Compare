@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Macro Price Compare</title>
+</head>
+
+<body>
+    <h1>Macro/Calorie Price Comparison</h1>
+    <main class="grid-container">
+        <form action="">
+            <label for="foodName">Food:</label>
+            <input type="text" name="foodName" id="foodName" placeholder="Enter Food Name">
+
+            <div>
+                <label for="cost">Cost:</label>
+                <input type="number" step="0.01" name="cost" id="cost" placeholder="$0.00"><br>
+
+                <label for="volume">Total Volume:</label>
+                <input type="number" name="volume" id="volume" placeholder="Total Volume">
+                <select name="units" id="units">
+                    <option value="gram">Grams (g)</option>
+                    <option value="kilogram">Kilograms (kg)</option>
+                    <option value="ounce">Ounces (oz)</option>
+                    <option value="pound">Pounds (lb)</option>
+                </select>
+            </div>
+
+
+
+            <label for="servingSize">Serving Size:</label>
+            <input type="number" name="servingSize" id="servingSize" placeholder="Serving Size in Grams">
+
+            <label for="calories">Calories:</label>
+            <input type="number" name="calories" id="calories" placeholder="Calories per Serving Size">
+
+            <label for="protein">Protein:</label>
+            <input type="number" name="protein" id="protein" placeholder="Protein in Grams">
+
+            <label for="carb">Carbohydrates:</label>
+            <input type="number" name="carbs" id="carbs" placeholder="Carbs in Grams">
+
+            <label for="fat">Fat:</label>
+            <input type="number" name="fat" id="fat" placeholder="Fat in Grams">
+            <button type="submit" class="submit">Submit</button>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div>
+            <img src="images/plus-box.svg" alt="">
+        </div> -->
+    </main>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    border-bottom: 10px solid red;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(5, 500px);
+}
+
+form{
+    padding: 5px;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
